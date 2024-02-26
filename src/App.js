@@ -24,7 +24,7 @@ function App() {
   if(username === 'user' && password === 'password'){
     setWelcome(true)
   }else{
-    setError('Invaild username or password ')
+    setError('Invalid username or password')
     setWelcome(false)
   }
 
